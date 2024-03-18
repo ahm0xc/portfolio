@@ -18,9 +18,12 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["var(--font-sans)"]
+      },
       fontSize: {
         sm: "0.7rem",
-        base: "0.9rem",
+        base: "0.95rem",
         xl: "1.2rem",
         "2xl": "1.53rem",
         "3xl": "1.93rem",

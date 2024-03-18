@@ -1,13 +1,14 @@
 import "~/styles/globals.css";
 
-import { Inter } from "next/font/google";
+import { Work_Sans } from "next/font/google";
 
 import { TRPCReactProvider } from "~/trpc/react";
 import { ThemeProvider } from "~/components/providers/theme-provider";
 
-const inter = Inter({
+const inter = Work_Sans({
   subsets: ["latin"],
   variable: "--font-sans",
+  weight: ["400"],
 });
 
 export const metadata = {
@@ -23,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`font-sans ${inter.variable}`}>
+      <body className={`font-sans text-base ${inter.variable}`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
