@@ -11,7 +11,7 @@ export default function Footer({
     <footer className={cn("mx-auto mt-16 max-w-3xl", className)} {...props}>
       <div className="border-t border-t-neutral-900 pb-20 pt-6">
         <div className="flex items-center justify-between">
-          <div>
+          <div className="flex gap-2 text-[14px] text-neutral-300">
             <Link href="/">Home</Link>
             <Link href="/">Posts</Link>
             <Link href="/">Photos</Link>
