@@ -22,7 +22,7 @@ const config = {
         sans: ["var(--font-sans)"]
       },
       fontSize: {
-        sm: "0.7rem",
+        sm: "0.85rem",
         base: "0.95rem",
         xl: "1.2rem",
         "2xl": "1.53rem",

@@ -66,6 +66,10 @@
   }
 }
 
+a {
+  @apply underline decoration-neutral-700 underline-offset-2 duration-200 hover:decoration-neutral-600;
+}
+
 @layer base {
   * {
     @apply border-border;
