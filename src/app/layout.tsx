@@ -27,7 +27,7 @@ export default function RootLayout({
       <body className={`font-sans text-base leading-[150%] ${inter.variable}`}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
