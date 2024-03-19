@@ -14,7 +14,7 @@ export default function Footer({
           <div className="flex gap-2 text-[14px] text-neutral-300">
             <Link href="/">Home</Link>
             <Link href="/">Posts</Link>
-            <Link href="/">Photos</Link>
+            <Link href="/photos">Photos</Link>
           </div>
           <div>
             <p className="text-sm select-none text-neutral-600">
